@@ -35,4 +35,3 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json.dumps(dynamodb_response['Items'][0], default=str)
     }
-
